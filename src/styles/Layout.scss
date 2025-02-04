@@ -1,0 +1,14 @@
+@use './utils.scss' as u;
+
+.out-wrapper {
+  background-color: u.$bg-color;
+  min-height: 100vh; 
+  padding: u.$container-padding-y 30px 30px;
+
+  .inner-wrapper {
+    background-color: #fff; 
+    min-height: calc(100vh - u.$container-padding-y - u.$container-padding-y); 
+    padding: 20px;
+    border-radius: 10px;
+  }
+}

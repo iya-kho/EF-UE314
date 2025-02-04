@@ -1,0 +1,16 @@
+@use './utils.scss' as u;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, h1, h2 {
+  font-family: u.$main-font;
+  font-weight: 500;
+}
+
+.flex {
+  display: flex;
+}
