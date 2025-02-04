@@ -5,7 +5,7 @@ export function Layout ({ children }) {
   return (
     <div className='out-wrapper'>
       <div className='inner-wrapper'>
-        <h1>Gestion des utilisateurs</h1>
+        <h1>Météo</h1>
         {children}
       </div>
     </div>
